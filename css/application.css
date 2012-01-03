@@ -1,0 +1,101 @@
+body {
+  font-family: Buenard, Georgia, "Times New Roman", Times, serif;
+  background: url(/images/bg-top.png) top left repeat-x; }
+  body #top {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  body .content p, body .content ol li, body .content ul li {
+    color: #434343; }
+  body a {
+    color: #cd3b2b;
+    text-decoration: none; }
+    body a:hover {
+      text-decoration: none;
+      color: #00cbde; }
+  body p {
+    margin-bottom: 16px; }
+  body .container {
+    width: 910px;
+    margin: 65px auto; }
+    body .container .header {
+      float: left;
+      width: 200px;
+      margin-right: 30px; }
+      body .container .header #logo {
+        margin: 0 auto;
+        height: 160px;
+        width: 175px;
+        background: url(/images/logo.png) top left no-repeat;
+        text-indent: -999px; }
+      body .container .header ul.navigation {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        list-style: none; }
+    body .container .content {
+      float: left;
+      width: 670px;
+      margin: 35px 0 0 0; }
+      body .container .content h2 {
+        font-size: 26px;
+        font-weight: normal;
+        color: black; }
+      body .container .content ul.posts {
+        font-size: 16px; }
+        body .container .content ul.posts li {
+          margin-bottom: 7px; }
+      body .container .content .posted-on {
+        color: #888888; }
+      body .container .content .separator {
+        margin: 0 5px; }
+      body .container .content .meta {
+        margin-bottom: 35px;
+        color: #aaaaaa;
+        font-size: 11px;
+        font-family: verdana, arial, san-serif; }
+        body .container .content .meta span.divider {
+          margin: 0 4px; }
+      body .container .content p, body .container .content ol, body .container .content ul {
+        font-size: 16px;
+        line-height: 22px; }
+      body .container .content ol, body .container .content ul {
+        margin-bottom: 22px;
+        margin-left: 15px; }
+      body .container .content .gist-meta {
+        font-size: 10px; }
+      body .container .content .inpage-nav .nav-top {
+        text-align: right;
+        border-bottom: 1px solid #eeeeee;
+        padding-bottom: 8px;
+        margin-bottom: 8px; }
+        body .container .content .inpage-nav .nav-top a {
+          margin-right: 4px; }
+      body .container .content .inpage-nav .nav-timeline {
+        text-align: center; }
+        body .container .content .inpage-nav .nav-timeline .previous-post {
+          margin-left: 4px; }
+        body .container .content .inpage-nav .nav-timeline .next-post {
+          margin-right: 4px; }
+      body .container .content img.left,
+      body .container .content .basic-alignment.left {
+        float: left;
+        margin-right: 1.5em; }
+      body .container .content img.right,
+      body .container .content .basic-alignment.right {
+        float: right;
+        margin-left: 1.5em; }
+      body .container .content img.center,
+      body .container .content .basic-alignment.center {
+        display: block;
+        margin: 0 auto 1.5em; }
+      body .container .content img.left, body .container .content img.right,
+      body .container .content .basic-alignment.left,
+      body .container .content .basic-alignment.right {
+        margin-bottom: 0.8em; }
+  body .footer {
+    clear: both;
+    background-color: #222222;
+    padding: 25px 0;
+    text-align: center;
+    color: #eeeeee; }

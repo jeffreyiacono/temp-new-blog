@@ -1,0 +1,136 @@
+$site-width: 910px
+$site-header-width: 200px
+$site-header-right-margin-width: 30px
+$site-content-width: ($site-width - $site-header-width - $site-header-right-margin-width - 10px)
+$font-color: #434343
+
+body
+  font-family: Buenard, Georgia, "Times New Roman", Times, serif
+  background: url(/images/bg-top.png) top left repeat-x
+
+  #top
+    position: absolute
+    top: 0
+    left: 0
+
+  .content
+    p, ol li, ul li
+      color: $font-color
+
+  a
+    color: #CD3B2B
+    text-decoration: none
+
+    &:hover
+      text-decoration: none
+      color: #00CBDE
+
+  p
+    margin-bottom: 16px
+
+  .container
+    width: $site-width
+    margin: 65px auto
+
+    .header
+      float: left
+      width: $site-header-width
+      margin-right: $site-header-right-margin-width
+
+      #logo
+        margin: 0 auto
+        height: 160px
+        width: 175px
+        background: url(/images/logo.png) top left no-repeat
+        text-indent: -999px
+
+      ul.navigation
+        margin: 0
+        padding: 0
+        text-align: center
+        list-style: none
+
+    .content
+      float: left
+      width: $site-content-width
+      margin: 35px 0 0 0
+
+      h2
+        font-size: 26px
+        font-weight: normal
+        color: #000
+
+      ul.posts
+        font-size: 16px
+
+        li
+          margin-bottom: 7px
+
+      .posted-on
+        color: #888
+
+      .separator
+        margin: 0 5px
+
+      .meta
+        margin-bottom: 35px
+        color: #aaa
+        font-size: 11px
+        font-family: verdana, arial, san-serif
+
+        span.divider
+          margin: 0 4px
+
+      p, ol, ul
+        font-size: 16px
+        line-height: 22px
+
+      ol, ul
+        margin-bottom: 22px
+        margin-left: 15px
+
+      .gist-meta
+        font-size: 10px
+
+      .inpage-nav
+        .nav-top
+          text-align: right
+          border-bottom: 1px solid #eee
+          padding-bottom: 8px
+          margin-bottom: 8px
+
+          a
+            margin-right: 4px
+
+        .nav-timeline
+          text-align: center
+
+          .previous-post
+            margin-left: 4px
+
+          .next-post
+            margin-right: 4px
+
+      img,
+      .basic-alignment
+        &.left
+          float: left
+          margin-right: 1.5em
+
+        &.right
+          float: right
+          margin-left: 1.5em
+
+        &.center
+          display: block
+          margin: 0 auto 1.5em
+
+        &.left, &.right
+          margin-bottom: .8em
+
+  .footer
+    clear: both
+    background-color: #222
+    padding: 25px 0
+    text-align: center
+    color: #eee

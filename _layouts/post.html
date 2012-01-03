@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+
+<div class="meta">
+  {{ page.date | date_to_string }}
+</div>
+
+<div class="post-content">
+  {{ content }}
+</div>
+<div class="inpage-nav">
+  <div class="nav-top">
+    <a href="#top">Back to Top</a>
+  </div>
+  <div class="nav-timeline">
+    {% if page.previous.url %}
+      <a class="basic-alignment left previous-post" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="basic-alignment right next-post" href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+  </div>
+</div>

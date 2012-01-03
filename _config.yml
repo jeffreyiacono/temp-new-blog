@@ -1,0 +1,14 @@
+exclude: [deploy.sh, README.md, Gemfile, Gemfile.lock]
+paginate: 10
+
+safe:        false
+auto:        true
+server:      false
+server_port: 4000
+baseurl:     /
+pygments:    true
+markdown:    rdiscount
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins

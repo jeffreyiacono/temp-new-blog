@@ -1,0 +1,11 @@
+---
+layout: default
+title: Blog, by Jeff Iacono
+---
+
+<h1>Posts</h1>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span class="posted-on">{{ post.date | date_to_string }}</span> <span class="separator">&raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
