@@ -1,8 +1,8 @@
-# Jeff Iacono's Blog. Hooray.
+# Jeff Iacono's (new) Blog. Hooray.
 
 ## About
 
-Built on top of [Jekyll](http://github.com/mojombo/jekyll) and strategically plucks various ome parts (plugins, styling, etc.) from [Octopress](http://github.com/imathis/octopress).
+Built on top of [Jekyll](http://github.com/mojombo/jekyll) and strategically plucks various some components (plugins, styling, etc.) from [Octopress](http://github.com/imathis/octopress).
 
 ## License
 
